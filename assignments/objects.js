@@ -47,12 +47,14 @@ const gannie = {
   gender: "M",
 }
 
-const antoinetta = {
+const antonietta = {
   id: 5,
   email: "adaine5@samsung.com",
   firstName: "Antonietta",
   gender: "F",
+  multiplyNums: function(num1,num2){ return num1 * num2;}
 }
+
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
@@ -66,7 +68,7 @@ console.log(keven.email);
 // Gannie's name
 console.log(gannie.firstName);
 // Antonietta's Gender
-console.log(antoinetta.gender);
+console.log(antonietta.gender);
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
